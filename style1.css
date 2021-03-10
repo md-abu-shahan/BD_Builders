@@ -1,0 +1,244 @@
+.title {
+	text-align:center;
+	min-width:200px;
+}
+
+.popup_registration_div{
+	width:84%;height:auto;display:block;background:#eff5f5;z-index:1; text-align:center; margin:30px auto;min-width:230px;overflow:hidden;
+}
+
+.popup_main_div{
+	width:100%;height:5000px;display:none;z-index:1;position:absolute;background: rgba(0,0,0,.7);margin : 0 auto;
+}
+
+.popup_registration{
+	color:black;width:84%; height:35px;background:white; margin-top:15px;border:1px solid #b1cdcd;font-size:14px;
+}
+
+
+
+
+.title a{
+	text-align:center;
+	min-width:200px;
+	text-decoration: none;
+	color:black;
+}
+
+.title a:hover{
+	
+	color:#006622;
+	/* background-color:#f2f2f2; */
+	
+}
+
+.sub_header{
+	height: auto;
+	text-align:center;
+	width: auto;
+	background-color: MediumSeaGreen;
+	min-width:200px;
+	position: sticky;
+	top: 0;
+}
+.sub_header a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 15px;
+	display:inline-block;
+
+}
+
+.sub_header a:hover{
+	color: MediumSeaGreen;
+	background-color:white;
+}
+.setImage{
+	height: 200px;
+	width: auto;
+	max-width: 2000px;text-align:center;
+	background-image:url("Images/img-2.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	min-width:200px;
+}
+.setImage form{
+	text-align:center;
+	padding-top:50px;
+	min-width:200px;
+	
+}
+.setImage form input{
+	height:50px; width:40%; border:2px solid MediumSeaGreen;
+	min-width:100px;
+
+}
+.setImage form input[type="submit"]{
+	height:50px; width:18%; background-color:MediumSeaGreen;min-width:90px;
+}
+.setImage form input[type="submit"]:hover{
+	color:white;background-color:#006622;
+}
+.post{
+	
+	height: auto;
+	width: 70%;
+	margin: 0 auto;
+	background-color: white;
+	min-height:800px;
+	min-width:200px;
+}
+
+.slider{
+	height: auto;
+	width: 50%;
+	background-color: white;
+	min-width:200px;
+	min-height:300px;
+	margin: 0 auto;
+}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.help{
+	height: auto;
+	width: auto;
+	background-color: white;
+	min-height:700px;
+	min-width:200px;
+}
+
+footer {
+	background-color: Black;
+	text-align: center;
+	color: white;
+	height:auto;
+	width:auto;
+	padding-top:10px;
+	margin-top:5px;
+	min-width:200px;
+	min-height:200px;
+	
+}
+.footer_links a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding-right: 15px;
+	display:inline-block;
+	text-align: center;
+
+}
+
+.login_form{
+	height: 600px;
+	width: auto;
+	background-color: white;
+	font-size: 25px;
+	text-align: center;
+	margin: 0 auto;
+}
+.login_form a{
+	color:blue;
+    font-size: 15px;
+    display:inline-block;
+}
+
+
+.Categories{
+
+	height: auto;
+	width: 100%;
+	background-color: white;
+	margin-top:20px;
+	text-align:center;
+}
+
+.posting_form{
+	height: auto;
+	width: auto;
+	background-color: white;
+	font-size: 20px;
+	text-align:center;
+	margin:0 auto;
+}
+.registration{
+
+	height: auto;
+	width: auto;
+	background-color: white;
+	font-size: 20px;
+	text-align:center;
+	margin:0 auto;
+}
+.canmain{
+	width:100%; height:320px;min-width:200px;
+}
+.can1{
+	width:270px; height:300px; min-width:255px;margin-top:20px;margin-left:1px;float:left;
+}
+.can2{
+	width:79%; height:290px; margin-top:20px;float:left;margin-left:1px;
+}
+@media only screen and (max-width: 1250px) {
+	.canmain{
+		height: 700px;
+		
+
+	}
+	.can1{
+		width: 100%;
+		text-align: center;
+	}
+	.can2{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 710px) {
+	.sub_header a {
+		text-decoration: none;
+		color: white;
+		font-size: 20px;
+		width:auto;
+		padding: 15px;
+		display:block;
+		text-align: center;
+	}
+	
+	.sub_header{
+		height: auto;
+		text-align:center;
+		width: auto;
+		background-color: MediumSeaGreen;
+		min-width:200px;
+		position: static;
+}
+	.setImage form input{
+		height:50px; width:90%; border:2px solid MediumSeaGreen;
+		min-width:100px;
+		margin-bottom:5px;
+
+	}
+	.setImage form{
+		text-align:center;
+		padding-top:30px;
+		min-width:200px;
+	
+	}
+	.footer_links a {
+		text-decoration: none;
+		color: white;
+		font-size: 20px;
+		display:block;
+		padding-bottom: 5px;
+		text-align: center;
+	}
+}
